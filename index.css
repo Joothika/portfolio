@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "driod-reg";
+  src: url(/src/assets/droid-sans.regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "poetsen-one";
+  src: url(/src/assets/PoetsenOne-Regular.ttf) format("truetype");
+}
