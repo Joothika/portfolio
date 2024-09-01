@@ -1,7 +1,8 @@
 import React from "react";
+import { CertificationsContainer } from "../utils/Export";
 
 const CertificationsPage = () => {
-  return <div>CertificationsPage</div>;
+  return <CertificationsContainer />;
 };
 
 export { CertificationsPage };

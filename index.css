@@ -10,3 +10,7 @@
   font-family: "poetsen-one";
   src: url(/src/assets/PoetsenOne-Regular.ttf) format("truetype");
 }
+
+*::-webkit-scrollbar {
+  display: none;
+}

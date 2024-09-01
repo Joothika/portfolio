@@ -1,7 +1,8 @@
 import React from "react";
+import { SkillsContainer } from "../utils/Export";
 
 const SkillsPage = () => {
-  return <div>SkillsPage</div>;
+  return <SkillsContainer />;
 };
 
 export { SkillsPage };

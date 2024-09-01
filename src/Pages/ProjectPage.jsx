@@ -1,7 +1,8 @@
 import React from "react";
+import { ProjectsContainer } from "../utils/Export";
 
 const ProjectPage = () => {
-  return <div>ProjectPage</div>;
+  return <ProjectsContainer />;
 };
 
 export { ProjectPage };

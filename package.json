@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "portfolio creation",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "Jothika",
   "license": "ISC",

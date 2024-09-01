@@ -5,7 +5,7 @@ import { NAME, ROLE } from "../../utils/constants";
 const Profile = ({ breakpoint }) => {
   return (
     <figure
-      className={`flex flex-col items-center my-10 ${
+      className={`flex flex-col items-center md:my-10 py-10 md:py-0 ${
         breakpoint ? "hidden md:flex" : "md:hidden"
       }`}
     >

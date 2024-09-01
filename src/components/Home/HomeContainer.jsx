@@ -5,7 +5,7 @@ const HomeContainer = () => {
   return (
     <section>
       <Profile />
-      <Header />
+      <Header page />
       <HomeMainContent />
     </section>
   );

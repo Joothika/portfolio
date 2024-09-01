@@ -1,7 +1,8 @@
 import React from "react";
+import { ContactContainer } from "../utils/Export";
 
 const ContactPage = () => {
-  return <div>ContactPage</div>;
+  return <ContactContainer />;
 };
 
 export { ContactPage };

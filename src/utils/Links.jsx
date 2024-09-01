@@ -1,17 +1,18 @@
 import React from "react";
 import { links } from "./constants";
-import { Link } from "react-router-dom";
 
-export const Links = () => {
+export const Links = ({ homepage }) => {
   return (
-    <aside className="flex flex-col items-end mt-12 absolute right-2 top-6">
+    <aside
+      className={`flex flex-col items-end  absolute right-2 top-2 md:top-6 mt-6`}
+    >
       {links?.map((eachLink) => (
         <a
           href={eachLink.link}
           target="_blank"
-          className="mb-4 hover:shadow-md hover:shadow-purple-500"
+          className="mb-3 md:mb-4 hover:shadow-md hover:shadow-purple-500"
         >
-          <img src={eachLink.icon} className=" w-9 h-9 " />
+          <img src={eachLink.icon} className="w-7 h-7 lg:w-8 lg:h-8 " />
         </a>
       ))}
     </aside>

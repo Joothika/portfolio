@@ -1,7 +1,8 @@
 import React from "react";
+import { AboutContainer } from "../utils/Export";
 
 const AboutPage = () => {
-  return <div>AboutPage</div>;
+  return <AboutContainer />;
 };
 
 export { AboutPage };
